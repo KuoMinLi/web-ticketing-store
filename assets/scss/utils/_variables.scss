@@ -386,7 +386,13 @@ $spacers: (
   9: $spacer * 2.25,
   10: $spacer * 2.5,
   11: $spacer * 3,
-  12: $spacer * 3.75,
+  12: 12px, // custom
+  16: 16px, // custom
+  20: 20px, // custom
+  24: 24px, // custom
+  32: 32px, // custom
+  40: 40px, // custom
+  48: 48px, // custom
 ) !default; // custom
 // scss-docs-end spacer-variables-maps
 
@@ -571,7 +577,8 @@ $font-weight-bolder:          bolder !default;
 $font-weight-base:            $font-weight-normal !default;
 
 $line-height-base:            1.5 !default;
-$line-height-sm:              1.25 !default;
+$line-height-xs:              1.25 !default; // custom
+$line-height-sm:              1.333 !default; // custom
 $line-height-lg:              2 !default;
 
 $h1-font-size:                $font-size-base * 2.5 !default;
@@ -591,6 +598,19 @@ $font-sizes: (
   5: $h2-font-size,   // custom
   6: $h4-font-size,  // custom
   7: $font-size-base * 1.125, // custom
+  14: 14px, // custom
+  16: 16px, // custom
+  18: 18px, // custom
+  20: 20px, // custom
+  24: 24px, // custom
+  28: 28px, // custom
+  32: 32px, // custom
+  36: 36px, // custom
+  40: 40px, // custom
+  48: 48px, // custom
+  60: 60px, // custom
+  64: 64px, // custom
+  96: 96px, // custom
 ) !default;
 // scss-docs-end font-sizes
 

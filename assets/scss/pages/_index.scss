@@ -15,3 +15,12 @@
     height: 80px;
   }
 }
+
+.sparkler {
+  width: 20px;
+  height: 20px;
+  @media (min-width: 767px) {
+    width: 24px;
+    height: 24px;
+  }
+}
