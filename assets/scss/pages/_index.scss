@@ -32,3 +32,22 @@
     height: 24px;
   }
 }
+
+.online-img {
+  height: 137px;
+  object-position: top -155px right 0;
+  @media (min-width: 767px) {
+    height: 317px;
+    object-position: top -285px right 0;
+  }
+}
+
+.online-item::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background-color: $primary;
+  }
