@@ -1,0 +1,21 @@
+.custom-button:hover {
+  color: $secondary !important;
+}
+
+.custom-button:disabled {
+  background: #9A9A9A;
+  color: #EBEAE3;
+}
+
+.custom-tag:hover {
+  background: $primary;
+  color: $white;
+}
+
+.custom-tag:hover::after {
+  background-color: $secondary;
+}
+
+.header-icon:hover {
+  color: #9C9E18 !important;  
+}
