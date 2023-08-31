@@ -34,11 +34,13 @@
 }
 
 .online-img {
-  height: 137px;
-  object-position: top -155px right 0;
+  background-image: url(../images/event/online.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 137px;
+  background-position: top -155px right 0;
   @media (min-width: 767px) {
-    height: 317px;
-    object-position: top -285px right 0;
+    background-position: top -237px right 0;
   }
 }
 
