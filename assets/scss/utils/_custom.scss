@@ -8,8 +8,8 @@
 }
 
 .custom-tag:hover {
-  background: $primary;
-  color: $white;
+  background: $primary !important;
+  color: $white !important;
 }
 
 .custom-tag:hover::after {
